@@ -46,6 +46,8 @@ ynh_print_info "Backing up nginx web server configuration..."
 
 ynh_backup "/etc/nginx/conf.d/$domain.d/$app.conf"
 
+
+
 #=================================================
 # END OF SCRIPT
 #=================================================

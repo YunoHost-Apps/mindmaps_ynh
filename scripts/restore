@@ -64,15 +64,6 @@ ynh_restore_file "$final_path"
 chown -R root: $final_path
 
 #=================================================
-# SPECIFIC RESTORATION
-#================================================
-#=================================================
-# ADVERTISE SERVICE IN ADMIN PANEL
-#=================================================
-
-yunohost service add $app --log "/var/log/$app/$app.log"
-
-#=================================================
 # GENERIC FINALIZATION
 #=================================================
 # RELOAD NGINX
