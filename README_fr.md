@@ -15,7 +15,7 @@ Mindmaps est une application de mind mapping basée sur HTML5. Il vous permet de
 
 ## Captures d’écran
 
-![](../sources/mindmaps-screenshot.jpg)
+![](sources/mindmaps-screenshot.jpg)
 
 ## Démo
 
