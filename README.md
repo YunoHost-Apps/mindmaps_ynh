@@ -15,7 +15,7 @@ Mindmaps is a HTML5 based mind mapping application. It lets you create neat look
 
 ## Screenshots
 
-![](Link to a screenshot of this app.)
+![](../sources/mindmaps-screenshot.jpg)
 
 ## Demo
 
