@@ -6,13 +6,12 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
 # LOAD SETTINGS
 #=================================================
-ynh_print_info "Loading installation settings..."
+ynh_script_progression --message="Loading installation settings..." --weight=1
 
 app=$YNH_APP_INSTANCE_NAME
 
@@ -20,22 +19,9 @@ domain=$(ynh_app_setting_get $app domain)
 final_path=$(ynh_app_setting_get $app final_path)
 
 #=================================================
-# STANDARD REMOVE
-#=================================================
-# REMOVE SERVICE FROM ADMIN PANEL
-#=================================================
-
-# Remove a service from the admin panel, added by `yunohost service add`
-if yunohost service status | grep -q $app
-then
-	ynh_print_info "Removing $app service"
-	yunohost service remove $app
-fi
-
-#=================================================
 # REMOVE APP MAIN DIR
 #=================================================
-ynh_print_info "Removing app main directory"
+ynh_script_progression --message="Removing app main directory" --weight=2
 
 # Remove the app directory securely
 ynh_secure_remove "$final_path"
@@ -43,7 +29,7 @@ ynh_secure_remove "$final_path"
 #=================================================
 # REMOVE NGINX CONFIGURATION
 #=================================================
-ynh_print_info "Removing nginx web server configuration"
+ynh_script_progression --message="Removing NGINX web server configuration" --weight=1
 
 # Remove the dedicated nginx config
 ynh_remove_nginx_config
@@ -52,5 +38,4 @@ ynh_remove_nginx_config
 # END OF SCRIPT
 #=================================================
 
-ynh_print_info "Removal of $app completed"
-
+ynh_script_progression --message="Removal of Mindmaps completed" --last
