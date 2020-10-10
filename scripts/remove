@@ -21,7 +21,7 @@ final_path=$(ynh_app_setting_get $app final_path)
 #=================================================
 # REMOVE APP MAIN DIR
 #=================================================
-ynh_script_progression --message="Removing app main directory" --weight=2
+ynh_script_progression --message="Removing Mindmaps main directory" --weight=2
 
 # Remove the app directory securely
 ynh_secure_remove "$final_path"
