@@ -21,21 +21,17 @@ Mindmaps est une application de mind mapping basée sur HTML5. Il vous permet de
 
 * [Démo officielle](www.mindmaps.app)
 
-## Configuration
-
-Comment configurer cette application : via le panneau d'administration, un fichier brut en SSH ou tout autre moyen.
-
 ## Documentation
 
  * Documentation officielle : Lien vers la documentation officielle de cette application.
- * Documentation YunoHost : Si une documentation spécifique est nécessaire, n'hésitez pas à contribuer.
+ * Documentation YunoHost : https://yunohost.org/#/app_mindmaps_fr
 
 ## Caractéristiques spécifiques YunoHost
 
 #### Support multi-utilisateur
 
-* L'authentification LDAP et HTTP est-elle prise en charge ?
-* L'application peut-elle être utilisée par plusieurs utilisateurs ?
+* L'authentification LDAP et HTTP est-elle prise en charge ? **Non**
+* L'application peut-elle être utilisée par plusieurs utilisateurs ? **Oui**
 
 #### Architectures supportées
 
@@ -61,7 +57,7 @@ Comment configurer cette application : via le panneau d'administration, un fichi
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/REPLACEBYYOURAPP_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/mindmaps_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
