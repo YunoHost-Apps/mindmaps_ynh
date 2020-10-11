@@ -19,7 +19,7 @@ Mindmaps est une application de mind mapping basée sur HTML5. Il vous permet de
 
 ## Démo
 
-* [Démo officielle](www.mindmaps.app)
+* [Démo officielle](https://www.mindmaps.app/)
 
 ## Documentation
 
@@ -49,7 +49,7 @@ Mindmaps est une application de mind mapping basée sur HTML5. Il vous permet de
 ## Liens
 
  * Signaler un bug : https://github.com/YunoHost-Apps/mindmaps_ynh/issues
- * Site de l'application : www.mindmaps.app
+ * Site de l'application : https://www.mindmaps.app/
  * Dépôt de l'application principale : https://github.com/drichard/mindmaps
  * Site web YunoHost : https://yunohost.org/
 
