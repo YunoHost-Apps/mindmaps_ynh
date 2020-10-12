@@ -4,7 +4,7 @@
     "packaging_format": 1,
     "description": {
         "en": "Tool for making mind maps",
-        "fr": "Outil de creation de cartes mentale"
+        "fr": "Outil de creation de cartes mentales"
     },
     "version": "0.0.20201010~ynh1",
     "url": "https://www.mindmaps.app/",
