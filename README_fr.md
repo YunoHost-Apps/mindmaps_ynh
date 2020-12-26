@@ -1,7 +1,7 @@
 # Mindmaps pour YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/mindmaps.svg)](https://dash.yunohost.org/appci/app/mindmaps) ![](https://ci-apps.yunohost.org/ci/badges/mindmaps.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/mindmaps.maintain.svg)  
-[![Installer Mindmaps avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=mindmaps)
+[![Installer Mindmaps avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mindmaps)
 
 *[Read this readme in english.](./README.md)* 
 
