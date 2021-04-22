@@ -35,8 +35,8 @@ Mindmaps is a HTML5 based mind mapping application. It lets you create neat look
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/mindmaps%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/mindmaps/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/mindmaps%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/mindmaps/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/mindmaps.svg)](https://ci-apps.yunohost.org/ci/apps/mindmaps/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/mindmaps.svg)](https://ci-apps-arm.yunohost.org/ci/apps/mindmaps/)
 
 ## Limitations
 
