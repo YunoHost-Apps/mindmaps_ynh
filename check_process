@@ -1,8 +1,8 @@
 ;; Test complet
 	; Manifest
-		domain="domain.tld"	(DOMAIN)
-		path="/path"	    (PATH)
-		is_public=1	        (PUBLIC|public=1|private=0)
+		domain="domain.tld"
+		path="/path"
+		is_public=1
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=1
@@ -11,6 +11,7 @@
 		setup_private=1
 		setup_public=1
 		upgrade=1
+		upgrade=1	from_commit=5fa8e13accb88b7ba3fd1dd9d917d1b4ef8305e4
 		backup_restore=1
 		multi_instance=0
 		port_already_use=0
