@@ -6,6 +6,7 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
+source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -15,36 +16,15 @@ ynh_script_progression --message="Loading installation settings..." --weight=1
 
 app=$YNH_APP_INSTANCE_NAME
 
-domain=$(ynh_app_setting_get $app domain)
-path_url=$(ynh_app_setting_get $app path)
-is_public=$(ynh_app_setting_get $app is_public)
-final_path=$(ynh_app_setting_get $app final_path)
+domain=$(ynh_app_setting_get --app=$app --key=domain)
+path_url=$(ynh_app_setting_get --app=$app --key=path)
+final_path=$(ynh_app_setting_get --app=$app --key=final_path)
 
 #=================================================
 # CHECK VERSION
 #=================================================
 
 upgrade_type=$(ynh_check_app_version_changed)
-
-#=================================================
-# ENSURE DOWNWARD COMPATIBILITY
-#=================================================
-ynh_script_progression --message="Ensuring downward compatibility..." --weight=2
-
-# Fix is_public as a boolean value
-if [ "$is_public" = "Yes" ]; then
-	ynh_app_setting_set $app is_public 1
-	is_public=1
-elif [ "$is_public" = "No" ]; then
-	ynh_app_setting_set $app is_public 0
-	is_public=0
-fi
-
-# If final_path doesn't exist, create it
-if [ -z $final_path ]; then
-	final_path=/var/www/$app
-	ynh_app_setting_set $app final_path $final_path
-fi
 
 #=================================================
 # BACKUP BEFORE UPGRADE THEN ACTIVE TRAP
@@ -61,6 +41,26 @@ ynh_clean_setup () {
 ynh_abort_if_errors
 
 #=================================================
+# STANDARD UPGRADE STEPS
+#=================================================
+# ENSURE DOWNWARD COMPATIBILITY
+#=================================================
+ynh_script_progression --message="Ensuring downward compatibility..." --weight=2
+
+# If final_path doesn't exist, create it
+if [ -z $final_path ]; then
+	final_path=/var/www/$app
+	ynh_app_setting_set $app final_path $final_path
+fi
+
+# Cleaning legacy permissions
+if ynh_legacy_permissions_exists; then
+	ynh_legacy_permissions_delete_all
+
+	ynh_app_setting_delete --app=$app --key=is_public
+fi
+
+#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 
@@ -74,21 +74,20 @@ then
 	mv ../sources/dist "$final_path"
 fi
 
+chmod 750 "$final_path"
+chmod -R o-rwx "$final_path"
+chown -R root:www-data "$final_path"
+
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
 ynh_script_progression --message="Upgrading NGINX web server configuration..." --weight=2
 
-# Create a dedicatedNGINX config
+# Create a dedicated NGINX config
 ynh_add_nginx_config
 
 #=================================================
-# SECURE FILES AND DIRECTORIES
-#=================================================
-
-# Set permissions on app files
-chown -R root: $final_path
-
+# GENERIC FINALIZATION
 #=================================================
 # RELOAD NGINX
 #=================================================
@@ -100,4 +99,4 @@ ynh_systemd_action --service_name=nginx --action=reload
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Upgrade of Mindmaps completed" --last
+ynh_script_progression --message="Upgrade of $app completed" --last

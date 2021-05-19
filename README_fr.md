@@ -1,7 +1,7 @@
 # Mindmaps pour YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/mindmaps.svg)](https://dash.yunohost.org/appci/app/mindmaps) ![](https://ci-apps.yunohost.org/ci/badges/mindmaps.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/mindmaps.maintain.svg)  
-[![Installer Mindmaps avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=mindmaps)
+[![Installer Mindmaps avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mindmaps)
 
 *[Read this readme in english.](./README.md)* 
 
@@ -11,7 +11,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 ## Vue d’ensemble
 Mindmaps est une application de mind mapping basée sur HTML5. Il vous permet de créer des cartes mentales soignées dans le navigateur.
 
-**Shipped version:** 1.0
+**Shipped version:** 20201010
 
 ## Captures d’écran
 
@@ -24,7 +24,7 @@ Mindmaps est une application de mind mapping basée sur HTML5. Il vous permet de
 ## Documentation
 
  * Documentation officielle : Lien vers la documentation officielle de cette application.
- * Documentation YunoHost : https://yunohost.org/#/app_mindmaps_fr
+ * Documentation YunoHost : https://yunohost.org/fr/app_mindmaps
 
 ## Caractéristiques spécifiques YunoHost
 
@@ -35,8 +35,8 @@ Mindmaps est une application de mind mapping basée sur HTML5. Il vous permet de
 
 #### Architectures supportées
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/mindmaps%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/mindmaps/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/mindmaps%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/mindmaps/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/mindmaps.svg)](https://ci-apps.yunohost.org/ci/apps/mindmaps/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/mindmaps.svg)](https://ci-apps-arm.yunohost.org/ci/apps/mindmaps/)
 
 ## Limitations
 

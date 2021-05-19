@@ -1,7 +1,7 @@
 # Mindmaps for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/mindmaps.svg)](https://dash.yunohost.org/appci/app/mindmaps) ![](https://ci-apps.yunohost.org/ci/badges/mindmaps.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/mindmaps.maintain.svg)  
-[![Install Mindmaps with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=mindmaps)
+[![Install Mindmaps with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mindmaps)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
@@ -11,7 +11,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 ## Overview
 Mindmaps is a HTML5 based mind mapping application. It lets you create neat looking mind maps in the browser.
 
-**Shipped version:** 1.0
+**Shipped version:** 20201010
 
 ## Screenshots
 
@@ -24,7 +24,7 @@ Mindmaps is a HTML5 based mind mapping application. It lets you create neat look
 ## Documentation
 
  * Official documentation: Link to the official documentation of this app
- * YunoHost documentation: https://yunohost.org/#/app_mindmaps
+ * YunoHost documentation: https://yunohost.org/en/app_mindmaps
 
 ## YunoHost specific features
 
@@ -35,8 +35,8 @@ Mindmaps is a HTML5 based mind mapping application. It lets you create neat look
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/mindmaps%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/mindmaps/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/mindmaps%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/mindmaps/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/mindmaps.svg)](https://ci-apps.yunohost.org/ci/apps/mindmaps/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/mindmaps.svg)](https://ci-apps-arm.yunohost.org/ci/apps/mindmaps/)
 
 ## Limitations
 
