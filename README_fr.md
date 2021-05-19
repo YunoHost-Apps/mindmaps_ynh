@@ -11,7 +11,7 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 ## Vue d’ensemble
 Mindmaps est une application de mind mapping basée sur HTML5. Il vous permet de créer des cartes mentales soignées dans le navigateur.
 
-**Shipped version:** 1.0
+**Shipped version:** 20201010
 
 ## Captures d’écran
 

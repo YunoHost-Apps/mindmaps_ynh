@@ -11,7 +11,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 ## Overview
 Mindmaps is a HTML5 based mind mapping application. It lets you create neat looking mind maps in the browser.
 
-**Shipped version:** 1.0
+**Shipped version:** 20201010
 
 ## Screenshots
 
