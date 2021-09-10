@@ -11,11 +11,10 @@
     "license": "AGPL-3.0",
     "maintainer": {
         "name": "",
-        "email": "",
-        "url": ""
+        "email": ""
     },
     "requirements": {
-        "yunohost": ">= 4.1.7"
+        "yunohost": ">= 4.2.4"
     },
     "multi_instance": false,
     "services": [
