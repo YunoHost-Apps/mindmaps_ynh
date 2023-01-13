@@ -1,0 +1,1 @@
+Mindmaps est une application de mind mapping basée sur HTML5. Il vous permet de créer des cartes mentales soignées dans le navigateur.

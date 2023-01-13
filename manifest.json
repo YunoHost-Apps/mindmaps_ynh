@@ -8,6 +8,12 @@
     },
     "version": "0.0.20201010~ynh2",
     "url": "https://www.mindmaps.app/",
+    "upstream": {
+        "license": "AGPL-3.0",
+        "website": "https://www.mindmaps.app/",
+        "demo": "https://www.mindmaps.app/",
+        "code": "https://github.com/drichard/mindmaps"
+    },
     "license": "AGPL-3.0",
     "maintainer": {
         "name": "",
