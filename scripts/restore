@@ -53,7 +53,7 @@ ynh_restore_file "$final_path"
 
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
-chown -R root:www-data "$final_path"
+chown -R $app:www-data "$final_path"
 
 #=================================================
 # GENERIC FINALIZATION
