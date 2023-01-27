@@ -33,7 +33,18 @@ final_path=$(ynh_app_setting_get --app=$app --key=final_path)
 #=================================================
 ynh_script_progression --message="Validating restoration parameters..." --weight=2
 
-test ! -d $final_path || ynh_die --message="There is already a directory: $final_path "
+test ! -d $final_path \
+	|| ynh_die --message="There is already a directory: $final_path "
+
+#=================================================
+# STANDARD RESTORATION STEPS
+#=================================================
+# RECREATE THE DEDICATED USER
+#=================================================
+ynh_script_progression --message="Recreating the dedicated system user..." --weight=1
+
+# Create the dedicated user (if not existing)
+ynh_system_user_create --username=$app --home_dir="$final_path"
 
 #=================================================
 # STANDARD RESTORATION STEPS
