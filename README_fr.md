@@ -5,15 +5,15 @@ It shall NOT be edited by hand.
 
 # Mindmaps pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/mindmaps.svg)](https://dash.yunohost.org/appci/app/mindmaps) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/mindmaps.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/mindmaps.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/mindmaps.svg)](https://dash.yunohost.org/appci/app/mindmaps) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/mindmaps.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/mindmaps.maintain.svg)
 [![Installer Mindmaps avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mindmaps)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Mindmaps rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Mindmaps rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Mindmaps est une application de mind mapping basée sur HTML5. Il vous permet de créer des cartes mentales soignées dans le navigateur.
 
@@ -21,14 +21,14 @@ Mindmaps est une application de mind mapping basée sur HTML5. Il vous permet de
 
 **Démo :** https://www.mindmaps.app/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Mindmaps](./doc/screenshots/mindmaps-screenshot.jpg)
+![Capture d’écran de Mindmaps](./doc/screenshots/mindmaps-screenshot.jpg)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://www.mindmaps.app/>
-* Dépôt de code officiel de l'app : <https://github.com/drichard/mindmaps>
+* Site officiel de l’app : <https://www.mindmaps.app/>
+* Dépôt de code officiel de l’app : <https://github.com/drichard/mindmaps>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_mindmaps>
 * Signaler un bug : <https://github.com/YunoHost-Apps/mindmaps_ynh/issues>
 
@@ -44,4 +44,4 @@ ou
 sudo yunohost app upgrade mindmaps -u https://github.com/YunoHost-Apps/mindmaps_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>

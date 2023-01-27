@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Mindmaps for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/mindmaps.svg)](https://dash.yunohost.org/appci/app/mindmaps) ![Working status](https://ci-apps.yunohost.org/ci/badges/mindmaps.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/mindmaps.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/mindmaps.svg)](https://dash.yunohost.org/appci/app/mindmaps) ![Working status](https://ci-apps.yunohost.org/ci/badges/mindmaps.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/mindmaps.maintain.svg)
 [![Install Mindmaps with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mindmaps)
 
 *[Lire ce readme en français.](./README_fr.md)*
