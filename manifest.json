@@ -6,7 +6,7 @@
         "en": "Tool for making mind maps",
         "fr": "Outil de creation de cartes mentales"
     },
-    "version": "0.0.20201010~ynh2",
+    "version": "0.0.20201010~ynh3",
     "url": "https://www.mindmaps.app/",
     "upstream": {
         "license": "AGPL-3.0",
