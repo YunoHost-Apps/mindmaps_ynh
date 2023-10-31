@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # Mindmaps for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/mindmaps.svg)](https://dash.yunohost.org/appci/app/mindmaps) ![Working status](https://ci-apps.yunohost.org/ci/badges/mindmaps.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/mindmaps.maintain.svg)
+
 [![Install Mindmaps with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mindmaps)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -30,7 +31,7 @@ Mindmaps is a HTML5 based mind mapping application. It lets you create neat look
 
 * Official app website: <https://www.mindmaps.app/>
 * Upstream app code repository: <https://github.com/drichard/mindmaps>
-* YunoHost documentation for this app: <https://yunohost.org/app_mindmaps>
+* YunoHost Store: <https://apps.yunohost.org/app/mindmaps>
 * Report a bug: <https://github.com/YunoHost-Apps/mindmaps_ynh/issues>
 
 ## Developer info
