@@ -31,7 +31,7 @@ Mindmaps is a HTML5 based mind mapping application. It lets you create neat look
 
 * Official app website: <https://www.mindmaps.app/>
 * Upstream app code repository: <https://github.com/drichard/mindmaps>
-* YunoHost documentation for this app: <https://yunohost.org/app_mindmaps>
+* YunoHost Store: <https://apps.yunohost.org/app/mindmaps>
 * Report a bug: <https://github.com/YunoHost-Apps/mindmaps_ynh/issues>
 
 ## Developer info
