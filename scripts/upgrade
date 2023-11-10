@@ -25,7 +25,7 @@ then
 
 	ynh_secure_remove --file=$install_dir
 	# Download, check integrity, uncompress and patch the source from app.src
-	mv ../sources/dist "$install_dir"
+	mv ../sources/dist/ "$install_dir"
 fi
 
 chmod -R o-rwx "$install_dir"
