@@ -5,7 +5,7 @@ name = "Mindmaps"
 description.en = "Tool for making mind maps"
 description.fr = "Outil de creation de cartes mentales"
 
-version = "0.0.20201010~ynh3"
+version = "0.0.20201010~ynh4"
 
 maintainers = []
 
