@@ -24,6 +24,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --weight=4
 
 	ynh_secure_remove --file=$install_dir
+	mkdir "$install_dir"
 	# Download, check integrity, uncompress and patch the source from app.src
 	mv ../sources/dist/ "$install_dir"
 fi
