@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install Mindmaps with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mindmaps)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install Mindmaps quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -26,6 +26,10 @@ Mindmaps is a HTML5 based mind mapping application. It lets you create neat look
 ## Screenshots
 
 ![Screenshot of Mindmaps](./doc/screenshots/mindmaps-screenshot.jpg)
+
+## :red_circle: Antifeatures
+
+- **Upstream not maintained**: This software is not maintained anymore. Expect it to break down over time, be exposed to unfixed security breaches, etc.
 
 ## Documentation and resources
 
